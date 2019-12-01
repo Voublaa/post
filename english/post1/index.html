@@ -19,8 +19,17 @@
     </head>
     <body>
 <div class="full">
-<div class="home" onclick="parent.location='https://voublaa.github.io/website/english/home1'; "></div>
-<div class="night" onclick=" document.getElementsByClassName('content')[0].style.backgroundColor='black'; "></div>
+<div class="home" onclick="Clickone(); document.getElementsByClassName('circle')[0].style.display='block'; "></div>
+    <div class="night" onclick=" document.getElementsByClassName('content')[0].style.backgroundColor='black'; "></div>
+    <div class="circle"></div>
+    <script>
+            function Clickone() {
+              setTimeout(
+                function() {
+                 parent.location='https://voublaa.github.io/website/english/home1';
+             }, 850);
+             }
+         </script>
 													   
     <div class="main_img">
         <div class="img_container"><img src="one.png" width="200px"></div>
